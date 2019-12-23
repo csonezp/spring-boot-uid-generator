@@ -1,6 +1,6 @@
 package com.csonezp.uidgen.uid.impl;
 
-import com.csonezp.uidgen.entry.WorkerNode;
+import com.csonezp.uidgen.entity.WorkerNode;
 import com.csonezp.uidgen.enums.WorkerNodeType;
 import com.csonezp.uidgen.repo.WorkerNodeRepo;
 import com.csonezp.uidgen.uid.WorkerIdAssigner;

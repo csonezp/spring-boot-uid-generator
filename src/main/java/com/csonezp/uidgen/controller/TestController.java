@@ -1,9 +1,8 @@
 package com.csonezp.uidgen.controller;
 
 import java.util.List;
-import java.util.Optional;
 
-import com.csonezp.uidgen.entry.WorkerNode;
+import com.csonezp.uidgen.entity.WorkerNode;
 import com.csonezp.uidgen.repo.WorkerNodeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

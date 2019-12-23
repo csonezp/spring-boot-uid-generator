@@ -1,4 +1,4 @@
-package com.csonezp.uidgen.entry;
+package com.csonezp.uidgen.entity;
 
 import java.util.Date;
 
@@ -33,9 +33,5 @@ public class WorkerNode {
     Integer type;
 
     Date launchDate = new Date();
-
-    Date modified;
-
-    Date created;
 
 }

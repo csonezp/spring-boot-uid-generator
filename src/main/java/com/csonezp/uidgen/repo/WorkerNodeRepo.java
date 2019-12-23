@@ -1,6 +1,6 @@
 package com.csonezp.uidgen.repo;
 
-import com.csonezp.uidgen.entry.WorkerNode;
+import com.csonezp.uidgen.entity.WorkerNode;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
