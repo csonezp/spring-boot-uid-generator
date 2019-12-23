@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date : 2019/12/23 15:35
  */
 @RestController
-public class IdController {
+public class UidController {
     @Autowired
     @Qualifier("snowFlakeGenerator")
     UidGenerator uidGenerator;

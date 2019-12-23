@@ -20,14 +20,11 @@ import lombok.Data;
 @Table(name = "WORKER_NODE")
 public class WorkerNode {
     @Id
-    @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
-    @Column(name = "HOST_NAME")
     String hostName;
 
-    @Column(name = "PORT")
     String port;
 
     Integer type;
