@@ -1,0 +1,13 @@
+
+DROP TABLE IF EXISTS `WORKER_NODE`;
+CREATE TABLE `WORKER_NODE` (
+  `ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'auto increment id',
+  `HOST_NAME` varchar(64) COLLATE utf8mb4_general_ci NOT NULL COMMENT 'host name',
+  `PORT` varchar(64) COLLATE utf8mb4_general_ci NOT NULL COMMENT 'port',
+  `TYPE` int(11) NOT NULL COMMENT 'node type: ACTUAL or CONTAINER',
+  `LAUNCH_DATE` date NOT NULL COMMENT 'launch date',
+  `MODIFIED` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'modified time',
+  `CREATED` datetime DEFAULT CURRENT_TIMESTAMP COMMENT 'created time',
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='DB WorkerID Assigner for UID Generator';
+
